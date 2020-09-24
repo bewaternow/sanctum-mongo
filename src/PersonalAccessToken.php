@@ -8,7 +8,6 @@ use Zach\Sanctum\Contracts\HasAbilities;
 class PersonalAccessToken extends MongoEloquent implements HasAbilities {
 
 	protected $connection = 'mongodb';
-	protected $collection = 'PersonalAccessToken';
 	/**
 	 * The attributes that should be cast to native types.
 	 *
