@@ -1,0 +1,56 @@
+{
+    "name": "zach/sanctum-mongo",
+    "description": "Laravel Sanctum provides a featherweight authentication system for SPAs and simple APIs.This will be more friendly to mongodb.",
+    "authors": [
+        {
+            "name": "Taylor Otwell",
+            "email": "taylor@laravel.com"
+        },
+        {
+            "name": "Zach.Lu",
+            "email": "1049655193@qq.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Zach-Lu/sanctum-mongo/issues",
+        "source": "https://github.com/Zach-Lu/sanctum-mongo"
+    },
+    "require": {
+        "php": "^7.2",
+        "ext-json": "*",
+        "illuminate/contracts": "^6.9|^7.0",
+        "illuminate/database": "^6.9|^7.0",
+        "illuminate/support": "^6.9|^7.0",
+        "jenssegers/mongodb": "^4.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.0",
+        "orchestra/testbench": "^4.0|^5.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zach\\Sanctum\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zach\\Sanctum\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Zach\\Sanctum\\SanctumServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
