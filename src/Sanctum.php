@@ -10,7 +10,7 @@ class Sanctum {
 	 *
 	 * @var string
 	 */
-	public static $personalAccessTokenModel = 'Laravel\\Sanctum\\PersonalAccessToken';
+	public static $personalAccessTokenModel = 'Zach\\Sanctum\\PersonalAccessToken';
 
 	/**
 	 * Indicates if Sanctum's migrations will be run.
