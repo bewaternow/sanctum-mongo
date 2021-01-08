@@ -20,7 +20,8 @@
         "ext-json": "*",
         "illuminate/contracts": "^6.9|^7.0|^8.0",
         "illuminate/database": "^6.9|^7.0|^8.0",
-        "illuminate/support": "^6.9|^7.0|^8.0"
+        "illuminate/support": "^6.9|^7.0|^8.0",
+        "jenssegers/mongodb": "^4.0"
     },
     "require-dev": {
         "mockery/mockery": "^1.0",
@@ -29,21 +30,21 @@
     },
     "autoload": {
         "psr-4": {
-            "Laravel\\Sanctum\\": "src/"
+            "Zach\\Sanctum\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Laravel\\Sanctum\\Tests\\": "tests/"
+            "Zach\\Sanctum\\Tests\\": "tests/"
         }
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.x-dev"
+            "dev-master": "1.x-dev"
         },
         "laravel": {
             "providers": [
-                "Laravel\\Sanctum\\SanctumServiceProvider"
+                "Zach\\Sanctum\\SanctumServiceProvider"
             ]
         }
     },
