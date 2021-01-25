@@ -16,12 +16,12 @@
         "source": "https://github.com/Zach-Lu/sanctum-mongo"
     },
     "require": {
-        "php": "^7.2",
+        "php": "^7.3|^8.0",
         "ext-json": "*",
         "illuminate/contracts": "^6.9|^7.0",
         "illuminate/database": "^6.9|^7.0",
         "illuminate/support": "^6.9|^7.0",
-        "jenssegers/mongodb": "^4.0"
+        "jenssegers/mongodb": "^3.8"
     },
     "require-dev": {
         "mockery/mockery": "^1.0",
